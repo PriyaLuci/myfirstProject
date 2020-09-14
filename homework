@@ -1,0 +1,294 @@
+1.	What is git?
+Ans. Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+2.	What is version control?
+Ans. Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. ... Using a VCS also generally means that if you screw things up or lose files, you can easily recover.
+
+Three Different Types Of Version Control Systems
+•	Local Version Control System.
+•	Centralized Version Control System.
+•	Distributed Version Control System. Local Version Control System
+
+In layman language how we work on version control , like suppose your family is going to throw a party, relate it with  a set of coders who wants to deliver a software. So your mom is incharge of the party , means she will take the decisions tha what should happen and what should not. Like you all siblings will have some plans for party and u r preparing it like food menus  but it is upto ur mom to decide your plans will be considered for party or not.
+In the same way when multiple coders are working on a software, there will be one person or group who will be incharge , who will regulate the code. So everyone will work on their code or plan , it means they are working on a branch and these code should become part of the main code or technical word master code, will depend on the incharge. Everyone will code their part and add logs or comments so that it will be clear that what person has done what changes or added some codes. Just like a party where everyone will tell what is their plan and they will maintain a record of it.
+It is quite handy if you are also maintaining different versions of the plans or codes.
+
+It is helpful also coz it prevents bad code to be integrated or mixed with the master code or main code.
+
+In a way branch code is like rough work like how we do in school , we have rough copy and fair copy. Once every thing in rough is correct we write it in fair copy
+
+3.	What is github?
+Ans. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. Github is a web-based platform used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project
+
+4.	what's the difference? Simply put, Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub isdesigned to help you better manage them.
+Simply put, Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+
+5.	How to install git for mac?
+Ans. How do I download Git for Mac?
+The easiest way to install Git on a Mac is via the stand-alone installer:
+1.	Download the latest Git for Mac installer.
+2.	Follow the prompts to install Git.
+3.	Open a terminal and verify the installation was successful by typing git --version : 
+https://www.atlassian.com/git/tutorials/install-git
+
+How to use Git and GitHub on Mac: Setup
+1.	Open Safari and browse to the Git developer site.
+2.	Click on Mac OS X below Downloads.
+3.	Open the git-2.8. ...
+4.	Double click the git-2.8. ...
+5.	If you get a warning that says "“git-2.8. ...
+6.	Click Continue, Install and enter your admin password.
+7.	Click Close.
+
+Q.1-what is python?  
+ANS-Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.  Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse
+
+
+Q.2-why python is popular?
+ANS-Table of Contents	
+Why is Python so Popular?
+1) Easy to Learn and Use
+2) Mature and Supportive Python Community
+3) Support from Renowned Corporate Sponsors
+4) Hundreds of Python Libraries and Frameworks
+5) Versatility, Efficiency, Reliability, and Speed
+6) Big data, Machine Learning and Cloud Computing
+7) First-choice Language
+8) The Flexibility of Python Language
+9) Use of python in academics
+10) Automation 
+
+Q.3- dfference between compiler and interpreter?
+ANS-compliers and interpreters are programs that help convert the high level language(Source Code) into machine codes to be understood by the computers.
+Computer programs are usually written on high level languages.A high level language is one that can be understood by humans. To make it clear, they contain words and phrases from the laguages in common use-english or other languages for example.However, computers cannot understand high level languages as we humans do.they can only understand the programs that are developed in binary systems known as mahine code.To start with, a computer program is usually written in high level languge known as source code.these source codes must be converted in machine language and here comes the role of interpreters ad compilers.
+
+COMPILERS-To start with, a compiler creates the program. It will  It will analyze all the language statements to check if they are correct.If it comes across something incorrect, it will give an error message.if there are no errors spotted, the compiler will covert the source code into machine code.the compiler links the different code files into programs that can run such as exe. finally the program runs.
+
+INTERPRETER-an interpreter creates the program. it neither links files or generate machine code. the source statements are executed line by line while executing the program.
+
+PROS AND CONS
+
+COMPILERS-In case of using compilers, the program codes are translated into machine codes already and hence the time to execute the code is very less, on the negative side, it is not possible to change the program without going back to the source code While working with a compiler.
+
+INTERPRETER  
+ PRO-interpreters make working with he source code much easier. Hence they are highly suitable for beginners.
+ CON-intepreted programs can only run on the computers having respective interpreters.
+       INTERPRETER                                                 COMPILERS
+   Translates program one statement at a time.	           Scans the entire program and translates it as a whole into machine code.
+Interpreters usually take less amount of time
+to analyze the source code. However, the overall
+execution time is comparatively slower than compilers.	   Compilers usually take a large amount of time to analyze the source code. However, the overall execution time is                                                                  comparatively faster than interpreters.
+
+No intermediate object code is generated, hence are         Generates intermediate object code which further requires linking, hence requires more memory.
+memory efficient.	                                      
+Programming languages like JavaScript, Python, Ruby         Programming languages like C, C++, Java use compilers. 
+use interpreters.	                                      
+
+
+Q.4- WHAT IS OBJECT AND CLASS IN PYTHON?
+ANS.Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.
+
+CLASS-To understand the need for creating a class let’s consider an example, let’s say you wanted to track the number of dogs which may have different attributes like breed, age. If a list is used, the first element could be the dog’s breed while the second element could represent its age. Let’s suppose there are 100 different dogs, then how would you know which element is supposed to be which? What if you wanted to add other properties to these dogs? This lacks organization and it’s the exact need for classes.
+
+Class creates a user-defined data structure, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A class is like a blueprint for an object.
+Some points on Python class:
+
+Classes are created by keyword class.
+Attributes are the variables that belong to class.
+Attributes are always public and can be accessed using dot (.) operator. Eg.: Myclass.Myattribute
+Class Definition Syntax:
+
+class ClassName:
+    # Statement-1
+    .
+    .
+    .
+    # Statement-N
+Defining a class –# Python program to  
+# demonstrate defining  
+# a class 
+  
+class Dog: 
+    pass
+In the above example, class keyword indicates that you are creating a class followed by the name of the class (Dog in this case).
+
+Class Objects
+An Object is an instance of a Class. A class is like a blueprint while an instance is a copy of the class with actual values. It’s not an idea anymore, it’s an actual dog, like a dog of breed pug who’s seven years old. You can have many dogs to create many different instances, but without the class as a guide, you would be lost, not knowing what information is required.
+
+An object consists of :
+
+State : It is represented by attributes of an object. It also reflects the properties of an object.
+Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
+Identity : It gives a unique name to an object and enables one object to interact with other objects.
+Declaring Objects (Also called instantiating a class)
+When an object of a class is created, the class is said to be instantiated. All the instances share the attributes and the behavior of the class. But the values of those attributes, i.e. the state are unique for each object. A single class may have any number of instances.
+
+Example:class dog
+         DOG.1-STATE/ATTRIBUTES
+              BREED
+              AGE
+              COLOR
+         DOG.2-BEHAVIOURS
+               BARK
+               SLEEP
+               EAT
+               
+Declaring an object – # Python program to 
+# demonstrate instantiating 
+# a class 
+
+
+class Dog: 
+	
+	# A simple class 
+	# attribute 
+	attr1 = "mamal"
+	attr2 = "dog"
+
+	# A sample method 
+	def fun(self): 
+		print("I'm a", self.attr1) 
+		print("I'm a", self.attr2) 
+
+# Driver code 
+# Object instantiation 
+Rodger = Dog() 
+
+# Accessing class attributes 
+# and method through objects 
+print(Rodger.attr1) 
+Rodger.fun() 
+Output:
+
+mamal
+I'm a mamal
+I'm a dog
+In the above example, an object is created which is basically a dog named Rodger. This class only has two class attributes that tell us that Rodger is a dog and a mammal.
+
+The self
+Class methods must have an extra first parameter in method definition. We do not give a value for this parameter when we call the method, Python provides it.
+If we have a method which takes no arguments, then we still have to have one argument.
+This is similar to this pointer in C++ and this reference in Java.
+When we call a method of this object as myobject.method(arg1, arg2), this is automatically converted by Python into MyClass.method(myobject, arg1, arg2) – this is all the special self is about.
+
+__init__ method
+The __init__ method is similar to constructors in C++ and Java. Constructors are used to initialize the object’s state. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
+
+filter_none
+edit
+play_arrow
+
+brightness_4
+# A Sample class with init method  
+class Person:  
+    
+    # init method or constructor   
+    def __init__(self, name):  
+        self.name = name  
+    
+    # Sample Method   
+    def say_hi(self):  
+        print('Hello, my name is', self.name)  
+    
+p = Person('Nikhil')  
+p.say_hi()  
+Output:
+
+Hello, my name is Nikhil
+Class and Instance Variables
+Instance variables are for data unique to each instance and class variables are for attributes and methods shared by all instances of the class. Instance variables are variables whose value is assigned inside a constructor or method with self whereas class variables are variables whose value is assigned in the class.
+
+Defining instance varibale using constructor.
+
+filter_none
+edit
+play_arrow
+
+brightness_4
+# Python program to show that the variables with a value   
+# assigned in the class declaration, are class variables and  
+# variables inside methods and constructors are instance  
+# variables.  
+     
+# Class for Dog  
+class Dog:  
+    
+    # Class Variable  
+    animal = 'dog'             
+    
+    # The init method or constructor  
+    def __init__(self, breed, color):  
+      
+        # Instance Variable      
+        self.breed = breed 
+        self.color = color         
+     
+# Objects of Dog class  
+Rodger = Dog("Pug", "brown")  
+Buzo = Dog("Bulldog", "black")  
+  
+print('Rodger details:')    
+print('Rodger is a', Rodger.animal)  
+print('Breed: ', Rodger.breed) 
+print('Color: ', Rodger.color) 
+  
+print('\nBuzo details:')    
+print('Buzo is a', Buzo.animal)  
+print('Breed: ', Buzo.breed) 
+print('Color: ', Buzo.color) 
+  
+# Class variables can be accessed using class  
+# name also  
+print("\nAccessing class variable using class name") 
+print(Dog.animal)         
+Output:
+
+Rodger details:
+Rodger is a dog
+Breed:  Pug
+Color:  brown
+
+Buzo details:
+Buzo is a dog
+Breed:  Bulldog
+Color:  black
+
+Accessing class variable using class name
+dog
+Defining instance variable using the normal method.
+
+filter_none
+edit
+play_arrow
+
+brightness_4
+# Python program to show that we can create   
+# instance variables inside methods  
+     
+# Class for Dog  
+class Dog:  
+        
+    # Class Variable  
+    animal = 'dog'      
+        
+    # The init method or constructor  
+    def __init__(self, breed):  
+            
+        # Instance Variable  
+        self.breed = breed              
+    
+    # Adds an instance variable   
+    def setColor(self, color):  
+        self.color = color  
+        
+    # Retrieves instance variable      
+    def getColor(self):      
+        return self.color     
+    
+# Driver Code  
+Rodger = Dog("pug")  
+Rodger.setColor("brown")  
+print(Rodger.getColor())   
+Output:
+
+brown
